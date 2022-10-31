@@ -9,7 +9,7 @@ class Controller_Promotion extends Controller
 {
     //
     public function select (){
-        $data = promotion::all();
+        $data = promotion::all ();
         return view('page1',compact('data'));
     }
 }
